@@ -60,7 +60,7 @@ def draw_x(row, col):
     end_asc = (col * CELL_SIZE + CELL_SIZE - SPACE, row * CELL_SIZE + SPACE)
     pygame.draw.line(screen, CROSS_COLOR, start_asc, end_asc, CROSS_WIDTH)
 
-# Draw O using the provided image
+# Draw O
 def draw_o(row, col):
     screen.blit(circle_img, (col * CELL_SIZE + (CELL_SIZE - circle_img.get_width()) // 2, row * CELL_SIZE + (CELL_SIZE - circle_img.get_height()) // 2))
 
