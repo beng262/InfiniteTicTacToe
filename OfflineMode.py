@@ -2,7 +2,7 @@ import pygame
 import sys
 import random
 
-# Initialize Pygame
+# Init
 pygame.init()
 
 # Constants
